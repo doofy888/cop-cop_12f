@@ -6,7 +6,7 @@ const NAVY = "#0b1f4d", SKIN = "#f2cfa6";
 /* ---------- "API" ---------- */
 // API: ieraksti adresi, kas atgriež JSON. Formāts: {"giljotina":[["VĀRDS","pavediens"],...],"kuka":[...],"frolovics":[...]}
 // Ja API_URL ir tukšs vai nav pieejams, vārdus ņem no ārējā faila words.js.
-const API_URL = "";
+const API_URL = "https://raw.githubusercontent.com/doofy888/cop-cop_12f/main/words.json";
 const THEMES = {
   giljotina: { name: "Nākamie rindā uz giljotīnu", sub: "Šobrīd esošie miljardieri" },
   kuka: { name: "Lai viņi ēd kūku!", sub: "Deserti un konditorejas izstrādājumi" },
